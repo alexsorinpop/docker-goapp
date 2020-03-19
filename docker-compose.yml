@@ -1,0 +1,7 @@
+webapp:
+  build: .
+
+  ports:
+    - "8000:8000"
+
+  command: /opt/goapp/demo.bin
